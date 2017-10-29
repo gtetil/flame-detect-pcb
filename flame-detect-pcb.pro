@@ -1,4 +1,4 @@
-update=8/18/2017 12:52:29 PM
+update=Sun 29 Oct 2017 04:12:52 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=Libraries/arduino
-LibName31=USBdio-PCB
-LibName32=C:/Users/gtetil/Downloads/CH340G/CH340G
-LibName33=C:/Users/gtetil/Documents/Projects/rpi-shutdown-pcb/rpi-shutdown-pcb-cache

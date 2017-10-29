@@ -268,7 +268,7 @@
     (add_net "Net-(CONN_1-PadB1)")
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3DD) (tstamp 57C8A1F4)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3DD) (tstamp 57C8A1F4)
     (at 168.5326 102.6528 270)
     (path /5813253D)
     (fp_text reference P0 (at -18.9 6.4 540) (layer F.SilkS)
@@ -291,7 +291,7 @@
       (net 45 RLY0))
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581220BA) (tstamp 57C6243E)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581220BA) (tstamp 57C6243E)
     (at 156.5326 111.7528 90)
     (path /581321DA)
     (fp_text reference P5 (at -18.8 5.7 360) (layer F.SilkS)
@@ -314,7 +314,7 @@
       (net 49 RLY5))
   )
 
-  (module "USBdio-PCB:DEUTSCH_CONN_(DTM13-12PA-12PB-R008)" (layer F.Cu) (tedit 580E5179) (tstamp 580E58C4)
+  (module "flame-detect-pcb:DEUTSCH_CONN_(DTM13-12PA-12PB-R008)" (layer F.Cu) (tedit 580E5179) (tstamp 580E58C4)
     (at 146.431 137.672)
     (path /580E15D0)
     (fp_text reference CONN_1 (at -11.3984 2.8508 180) (layer F.SilkS)
@@ -380,7 +380,7 @@
     (pad B7 thru_hole circle (at 37.97 1.96) (size 2.3 2.3) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 63 D+))
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
-    (model "../../../../../../Users/gtetil/Documents/Projects/USBdio-PCB/USBdio-PCB.pretty/DEUTSCH_CONN_(DTM13-12PA-12PB-R008).wrl"
+    (model "../../../../../../Users/gtetil/Documents/Projects/flame-detect-pcb/flame-detect-pcb.pretty/DEUTSCH_CONN_(DTM13-12PA-12PB-R008).wrl"
       (at (xyz 0 -1.21 0.41))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 270 0 0))
@@ -849,7 +849,7 @@
     )
   )
 
-  (module "USBdio-PCB:SCHOTTKY_(PMEG3030EP,115)" (layer B.Cu) (tedit 5810AEC0) (tstamp 5810B202)
+  (module "flame-detect-pcb:SCHOTTKY_(PMEG3030EP,115)" (layer B.Cu) (tedit 5810AEC0) (tstamp 5810B202)
     (at 177.9826 80.2728 270)
     (path /580F75E6)
     (fp_text reference D9 (at 0 -2.6 270) (layer B.SilkS)
@@ -865,7 +865,7 @@
       (net 55 "Net-(CONN_1-PadB1)"))
   )
 
-  (module "USBdio-PCB:REGULATOR_(NCV7805BDTRKG)" (layer B.Cu) (tedit 5810ACD0) (tstamp 5810B20B)
+  (module "flame-detect-pcb:REGULATOR_(NCV7805BDTRKG)" (layer B.Cu) (tedit 5810ACD0) (tstamp 5810B20B)
     (at 175.1326 56.8228 180)
     (path /580F7441)
     (fp_text reference U1 (at 0 -2.8 180) (layer B.SilkS)
@@ -884,7 +884,7 @@
       (net 51 +5V))
   )
 
-  (module "USBdio-PCB:RESONATOR_(CSTCE16M0V53C-R0)" (layer B.Cu) (tedit 5810A9BA) (tstamp 5810B216)
+  (module "flame-detect-pcb:RESONATOR_(CSTCE16M0V53C-R0)" (layer B.Cu) (tedit 5810A9BA) (tstamp 5810B216)
     (at 152.1326 72.1428)
     (path /59973AA2)
     (fp_text reference X1 (at 0.2 -2.4) (layer B.SilkS)
@@ -905,7 +905,7 @@
       (net 12 "Net-(IC1-Pad10)"))
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581228BC) (tstamp 57C62431)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581228BC) (tstamp 57C62431)
     (at 140.5326 111.7528 90)
     (path /5813228F)
     (fp_text reference P4 (at -18.8 5.7 360) (layer F.SilkS)
@@ -928,7 +928,7 @@
       (net 50 RLY4))
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 5810B091) (tstamp 57C62424)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 5810B091) (tstamp 57C62424)
     (at 124.5326 111.7528 90)
     (path /58132330)
     (fp_text reference P3 (at -18.8 6.2 360) (layer F.SilkS)
@@ -951,7 +951,7 @@
       (net 48 RLY3))
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3D7) (tstamp 57C62417)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3D7) (tstamp 57C62417)
     (at 136.5326 102.6528 270)
     (path /581323F9)
     (fp_text reference P2 (at -18.9 5.9 540) (layer F.SilkS)
@@ -974,7 +974,7 @@
       (net 47 RLY2))
   )
 
-  (module "USBdio-PCB:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3DA) (tstamp 57C6240A)
+  (module "flame-detect-pcb:RELAY_(JSM1A-12V-4)" (layer F.Cu) (tedit 581CD3DA) (tstamp 57C6240A)
     (at 152.5326 102.6528 270)
     (path /58132498)
     (fp_text reference P1 (at -18.9 5.9 540) (layer F.SilkS)
@@ -997,7 +997,7 @@
       (net 46 RLY1))
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728D3)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728D3)
     (at 157.3526 63.8928)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1033,7 +1033,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728E4)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728E4)
     (at 145.2926 53.8728 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1069,7 +1069,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728E5)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728E5)
     (at 166.7326 114.4528 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1105,7 +1105,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728F5)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599728F5)
     (at 150.6926 114.4228 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1141,7 +1141,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972905)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972905)
     (at 134.7326 114.5528 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1177,7 +1177,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972915)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972915)
     (at 126.3326 99.8528)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1213,7 +1213,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972925)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972925)
     (at 142.3326 99.8528)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1249,7 +1249,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972935)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972935)
     (at 158.3326 99.8528)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1321,7 +1321,7 @@
     )
   )
 
-  (module USBdio-PCB:CH340G (layer B.Cu) (tedit 59971A7A) (tstamp 59972966)
+  (module flame-detect-pcb:CH340G (layer B.Cu) (tedit 59971A7A) (tstamp 59972966)
     (at 157.0826 48.6128)
     (path /59971A44)
     (solder_mask_margin 0.1)
@@ -1374,7 +1374,7 @@
       (net 73 "Net-(IC2-Pad9)") (solder_mask_margin 0.2))
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972967)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972967)
     (at 146.1426 73.6428 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1410,7 +1410,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972977)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972977)
     (at 141.1326 79.1428 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1446,7 +1446,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972987)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972987)
     (at 137.6326 53.8228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1482,7 +1482,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972997)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972997)
     (at 140.6326 47.3228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1518,7 +1518,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729A7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729A7)
     (at 129.1326 53.8228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1554,7 +1554,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729B7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729B7)
     (at 132.1326 47.3228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1590,7 +1590,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729C7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729C7)
     (at 120.6326 53.8228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1626,7 +1626,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729D7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729D7)
     (at 123.6326 47.3228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1662,7 +1662,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729E7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729E7)
     (at 112.1326 53.8228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1698,7 +1698,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729F7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 599729F7)
     (at 115.1326 47.3228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1734,7 +1734,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A07)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A07)
     (at 130.1326 73.7028 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1770,7 +1770,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A17)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A17)
     (at 125.1326 79.1428 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1806,7 +1806,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A27)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A27)
     (at 138.1326 73.6428 270)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1842,7 +1842,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A37)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A37)
     (at 133.1326 79.1428 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1878,7 +1878,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A47)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A47)
     (at 171.3426 118.4128 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1914,7 +1914,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A57)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A57)
     (at 156.3326 118.5528 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1950,7 +1950,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A67)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A67)
     (at 139.9426 118.2228 90)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -1986,7 +1986,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A77)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A77)
     (at 130.9526 93.8828)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -2022,7 +2022,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A87)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A87)
     (at 142.3826 90.9028)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -2058,7 +2058,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A97)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972A97)
     (at 158.4226 90.8028)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -2094,7 +2094,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972AA7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972AA7)
     (at 153.1326 77.3228 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -2130,7 +2130,7 @@
     )
   )
 
-  (module "USBdio-PCB:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972AB7)
+  (module "flame-detect-pcb:R_1206_HandSoldering_(narrow)" (layer B.Cu) (tedit 5943051B) (tstamp 59972AB7)
     (at 119.1326 68.3228)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
@@ -2166,7 +2166,7 @@
     )
   )
 
-  (module "USBdio-PCB:RESONATOR_(CSTCE16M0V53C-R0)" (layer B.Cu) (tedit 5810A9BA) (tstamp 59972AD1)
+  (module "flame-detect-pcb:RESONATOR_(CSTCE16M0V53C-R0)" (layer B.Cu) (tedit 5810A9BA) (tstamp 59972AD1)
     (at 165.5426 48.6528)
     (path /59977558)
     (fp_text reference X2 (at 0.2 -2.4) (layer B.SilkS)

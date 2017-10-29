@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TRANSFORMER_(42TL013-RC)
+D Transformer, split primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+#End Doc Library
