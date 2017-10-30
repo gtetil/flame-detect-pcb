@@ -141,7 +141,7 @@ TimeStamp = 57C623D9
 Path = /57C34CC8
 Reference = INPUTS_1;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -149,7 +149,7 @@ TimeStamp = 57C62594
 Path = /57BF69AA
 Reference = V_BATT_DIST_1;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -157,7 +157,7 @@ TimeStamp = 57C62471
 Path = /57AA7897
 Reference = PWR_IN_1;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -165,7 +165,7 @@ TimeStamp = 57C623FD
 Path = /57BF6D6A
 Reference = OUTPUTS_2;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -173,7 +173,7 @@ TimeStamp = 57C623F1
 Path = /57BF6D74
 Reference = OUTPUTS_1;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -181,7 +181,7 @@ TimeStamp = 57C623E5
 Path = /57C354F2
 Reference = INPUTS_2;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -189,7 +189,7 @@ TimeStamp = 57C623CD
 Path = /57BF6965
 Reference = GND_DIST_1;
 ValeurCmp = CONN_01X04;
-IdModule  = USBdio-PCB:PHX_HDR_4_POS_(1933202);
+IdModule  = flame-detect-pcb:PHX_HDR_4_POS_(1933202);
 EndCmp
 
 BeginCmp
@@ -197,7 +197,7 @@ TimeStamp = 57C62588
 Path = /57BF6188
 Reference = U1;
 ValeurCmp = Arduino_Nano;
-IdModule  = USBdio-PCB:ARDUINO_NANO;
+IdModule  = flame-detect-pcb:ARDUINO_NANO;
 EndCmp
 
 BeginCmp
@@ -205,7 +205,7 @@ TimeStamp = 57C62458
 Path = /57C43234
 Reference = P7;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -213,7 +213,7 @@ TimeStamp = 57C6244B
 Path = /57C4ADCB
 Reference = P6;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ TimeStamp = 57C6243E
 Path = /57C4AFAE
 Reference = P5;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -229,7 +229,7 @@ TimeStamp = 57C62431
 Path = /57C4AFD0
 Reference = P4;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -237,7 +237,7 @@ TimeStamp = 57C62424
 Path = /57C4C762
 Reference = P3;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -245,7 +245,7 @@ TimeStamp = 57C62417
 Path = /57C4C784
 Reference = P2;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -253,7 +253,7 @@ TimeStamp = 57C6240A
 Path = /57C4C7A6
 Reference = P1;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -261,7 +261,7 @@ TimeStamp = 57C8A1F4
 Path = /57C4C7C8
 Reference = P0;
 ValeurCmp = TE_RELAY_(ORWH-SH-112D);
-IdModule  = USBdio-PCB:TE_RELAY_(ORWH-SH-112D);
+IdModule  = flame-detect-pcb:TE_RELAY_(ORWH-SH-112D);
 EndCmp
 
 BeginCmp
@@ -269,7 +269,7 @@ TimeStamp = 580E266C
 Path = /580E15D0
 Reference = P8;
 ValeurCmp = DEUTSCH_CONN_(DTM13-12PA-12PB-R008);
-IdModule  = USBdio-PCB:DEUTSCH_CONN_(DTM13-12PA-12PB-R008);
+IdModule  = flame-detect-pcb:DEUTSCH_CONN_(DTM13-12PA-12PB-R008);
 EndCmp
 
 BeginCmp
