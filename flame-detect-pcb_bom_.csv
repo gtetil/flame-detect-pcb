@@ -1,0 +1,53 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C,"C1, C2, C5, C10, C11",0.1uF,C_0805,5,
+2,Unpolarized capacitor,C,"C12, C13, C16, C17, C20, C21, C24, C25",10nF,C_0805,8,
+3,Unpolarized capacitor,C,"C14, C15, C18, C19, C22, C23, C26, C27",1nF,C_0805,8,
+4,Unpolarized capacitor,C,"C6, C7, C8, C9",22pF,C_0805,4,
+5,Polarised capacitor,CP,"C3, C4",47uF,C_0805,2,
+6,"Connector, single row, 01x01, pin header",CONN_01X01,"CAN_HI1, CAN_LO1, DIO7, DIO8, DIO9, FLAME_1, FLAME_2, FLAME_3, FLAME_4, FLAME_5, FLAME_6, FLAME_7, FLAME_8, GND1, GND2, V_IN1, V_IN2",CONN_01X01,,17,
+7,"Connector, single row, 01x02, pin header",CONN_01X02,CAN_TERM1,CONN_01X02,,1,
+8,Diode,D,"D1, D2, D3, D8, D10, D15, D16, D21, D22",BAV21W-7-F,D_0805,9,
+9,Zener Diode,D_Zener,"D4, D5, D11, D12, D17, D18, D23, D24",BZT52C5V1-TP,D_0805,8,https://en.wikipedia.org/wiki/Zener_diode
+10,Schottky diode,D_Schottky,D9,D_Schottky,"SCHOTTKY_(PMEG3030EP,115)",1,
+11,LED generic,LED,"D6, D7, D13, D14, D19, D20, D25, D26, D27",LED,,9,
+12,"resettable fuse, polymeric positive temperature coefficient (PPTC)",Polyfuse,F1,Polyfuse,R_1812,1,
+13,"Connector, double row, 02x03, pin header",CONN_02X03,ICSP1,CONN_02X03,,1,
+14,Transistor NPN (general),Q_NPN_BEC,Q17,MMBT2222,SOT-23,1,
+15,"40V Vce, 0.2A Ic, PNP, Small Signal Transistor, SOT-23",MMBT3906,"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8",MMBT2907,SOT-23,8,http://www.nxp.com/documents/data_sheet/MMBT3906.pdf
+16,Resistor,R,"R3, R4, R15",10K,R_0805,3,
+17,Resistor,R,R16,10M,R_0805,1,
+18,Resistor,R,R5,120R,R_0805,1,
+19,Resistor,R,"R11, R13, R30, R32, R44, R46, R58, R60",13K,R_0805,8,
+20,Resistor,R,"R10, R12, R18, R19, R27, R29, R31, R35, R36, R43, R45, R49, R50, R57, R59, R63, R64",1M,R_0805,17,
+21,Resistor,R,"R28, R67",1k,R_0805,2,
+22,Resistor,R,"R20, R21, R37, R38, R51, R52, R65, R66",240R,R_0805,8,
+23,Resistor,R,"R14, R17, R33, R34, R47, R48, R61, R62",3M,R_0805,8,
+24,Resistor,R,"R6, R7, R22, R23, R39, R40, R53, R54",470K,R_0805,8,
+25,Resistor,R,R1,5.1K,R_0805,1,
+26,Resistor,R,"R8, R9, R24, R25, R41, R42, R55, R56",5.1M,R_0805,8,
+27,Resistor,R,R2,560R,R_0805,1,
+28,Resistor,R,R26,680R,R_0805,1,
+29,"Connector, single row, 01x04, pin header",CONN_01X04,SERIAL1,CONN_01X04,,1,
+30,"Transformer, split primary, single secondary",TRANSFORMER_(42TL013-RC),T1,TRANSFORMER_(42TL013-RC),TRANSFORMER_(42TL013-RC),1,
+31,"TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM",ATMEGA328P-AU,U6,ATMEGA328P-AU,TQFP32,1,http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+32,,DIP_SW_3,U9,DIP_SW_3,,1,
+33,"100mA, Quasi Low Dropout Voltage Regulator, 3.3V positive fixed output, SOT-23 package",LM3480-5.0,U5,LM3480-5.0,SOT-23,1,http://www.ti.com/lit/ds/symlink/lm3480.pdf
+34,Dual Op amp (low power),LM358,"U1, U2, U3, U4",LM358,,4,ns/lm158.pdf
+35,"Stand-Alone CAN Controller with SPI Interface, SOIC-18, Extended temperature range",MCP2515T-I/SO,U7,MCP2515T-I/SO,,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+36,"High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC8 package",MCP2551-I/SN,U8,MCP2551-I/SN,SOIC-8_3.9x4.9mm_Pitch1.27mm,1,http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+37,Two pin crystal,Crystal,"XTAL1, XTAL2",Crystal,,2,
+
+
+
+
+
+Component Groups:,37
+Component Count:,163
+Fitted Components:,163
+Number of PCBs:,1
+Total components:,163
+Schematic Version:,
+Schematic Date:,
+BoM Date:,3/19/2018 12:58:17 PM
+Schematic Source:,C:\Users\gtetil\Documents\Projects\flame-detect-pcb\flame-detect-pcb.sch
+KiCad Version:,Eeschema 4.0.6
