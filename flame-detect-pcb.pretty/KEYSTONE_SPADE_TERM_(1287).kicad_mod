@@ -1,4 +1,4 @@
-(module "KEYSTONE_SPADE_TERM_(1287)" (layer F.Cu) (tedit 5AB02AA2)
+(module "KEYSTONE_SPADE_TERM_(1287)" (layer F.Cu) (tedit 5ABB9E44)
   (fp_text reference REF** (at 0.1 7.5 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -7,8 +7,8 @@
   )
   (fp_line (start 1.5 0) (end 1.5 5) (layer F.SilkS) (width 0.15))
   (fp_line (start -1.5 0) (end -1.5 5) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at 0 5.08) (size 2.2 2.2) (drill 1.32) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.32) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 5.08) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (model ../../../../../../Users/gtetil/Documents/Projects/flame-detect-pcb/flame-detect-pcb.pretty/keystone-PN1287-ST.wrl
     (at (xyz 0.015 -0.1 -0.15))
     (scale (xyz 0.393701 0.393701 0.393701))
